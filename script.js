@@ -3,7 +3,7 @@ const span = document.querySelector('span');
 const card = document.querySelector('.card')
 const p = document.querySelector('p')
 
-input.addEventListener("focus", t)
+
 let a = false;
 const t = ()=> {
   
@@ -18,3 +18,4 @@ const t = ()=> {
         }
     
 }
+input.addEventListener("focus", t)

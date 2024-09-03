@@ -4,6 +4,6 @@ const card = document.querySelector('.card')
 
 input.addEventListener("focus", (e)=> {
     const heightViewport = window.visualViewport.height;
-    const heightDevice = document.body.clientHeight;
+    const heightDevice = window.screen.height;
     span.textContent=`Viewport: ${heightViewport}, device: ${heightDevice}`
 })
